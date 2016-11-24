@@ -71,7 +71,7 @@ Here's a basic set of principles to be aware while writing roles:
 - Roles providing features for other roles to use MUST do so by offering
   dedicated :ref:`dependent variables <debops_policy__ref_code_standards_dependent_variables>`.
 
-- Use `inventory level scoped variables <debops_policy__ref_code_standards_inventory_level_scoped_variables>`
+- Use :ref:`inventory level scoped variables <debops_policy__ref_code_standards_inventory_level_scoped_variables>`
   to offer mergable configuration keys in multiple inventory scopes.
 
 
@@ -382,8 +382,8 @@ Ansible role tasks
 ------------------
 
 Ansible tasks are doing the actual work namely querying and modifying the
-target host. Each task defines a `Ansible Module <Ansible Modules>` invocation
-with a number of general and module specific options.
+target host. Each task defines a :ref:`Ansible Module <Ansible Modules>`
+invocation with a number of general and module specific options.
 
 .. _debops_policy__ref_code_standards_task_description:
 
